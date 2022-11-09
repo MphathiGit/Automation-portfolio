@@ -17,15 +17,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-		/* declare variables */
-		public static String browser_name = "chrome" ;
+		 /* declare variables */
+		//browser name can shud be externalised :)
+		public static String browser_name = "chrome" ; 
 		public static  WebDriver driver;
 		public static WebDriverWait basedriver_wait ;
-	    public static JavascriptExecutor js_executor ;
+	        public static JavascriptExecutor js_executor ;
 
 
-	 @BeforeSuite(description = "Initialise the webdriver based on browser pramater")
-	    public  void launchBrowser() {
+	     @BeforeSuite(description = "Initialise the webdriver based on browser pramater")
+	     public  void launchBrowser() {
 
 	    	/* Based on type of browser to run, run it for user*/
 	    	if (browser_name == "chrome") {
