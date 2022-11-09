@@ -99,19 +99,6 @@ public class SearchResultsPage extends BaseTest {
 
 
 
-    /**
-	 * click on date field and then do calendar selection(currenlty hardocded dates)
-	 */
-	public static void  checkinDateSelectionAndSearch() {
-			basedriver_wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(FromDate_xpath)));
-			getFromDateCalendarElement().click();
-			getCheckoutDate().click();
-			basedriver_wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(ToDate_xpath)));
-	        getToDateCalendarElement().click();
-	}
-
-
-
 
 	/**
 	 * use JavaScript executor to run JavScrpt code to verify status of pageLoad
