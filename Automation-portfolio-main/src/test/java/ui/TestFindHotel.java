@@ -35,7 +35,7 @@ public class TestFindHotel  extends BaseTest{
     @Test(priority = 3,description = "select travel dates", dependsOnMethods = "selectDestinationAndSearch")
 	public void selectDates() {
 		LandingPage.clickOnDateField();		
-		LandingPage.EnterFromToDate("January","2023", "5", "February", "2023", "6");
+		LandingPage.EnterFromToDate("January","2023", "5", "February", "2023", "1");
 	}
 	
     
