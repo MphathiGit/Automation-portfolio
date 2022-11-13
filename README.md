@@ -6,5 +6,5 @@ page with returned hotel search results, until it finds one that matches your en
 
 The test framework used is the TestNg framework, the programming is done in Java win accord with Selenium.
 
-The above mentioned test is in the  "UI package folder , the class name is TestFindHotel.Java,  all the other classes are implementing OOP principles and wrapping up the code in relevant places instead of having all the code in the actual test file.
+ 
  
