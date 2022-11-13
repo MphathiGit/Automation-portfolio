@@ -1,10 +1,6 @@
-# Automation-portfolio
-Web Automation project using Selenium, Java,TestNg and Maven Technologies
-This is a little project to display selenium with Java capabilities. It consists of a Test to go to a travel website, enter a Destination, then enter your own 
-travel dates(dynamic handling of date picker/calendar) and the price range for the Hotel you would like to book. The script then scrolls down the search results
-page with returned hotel search results, until it finds one that matches your entered price range and scrolls down util it finds it, then selects this hotel to view availability.
+# WebAutomation
+Demonstrating working knowledge of WebAutomation using Selenium webdriver, Java and Maven technologies.
+The test is to go to Booking.com website and find a hotel price that suits my price range and select to view availability based on price.
+Then also verify that if i filter desired price range from booking.com, the prices on the returned results match this expected outcome.
 
-The test framework used is the TestNg framework, the programming is done in Java win accord with Selenium.
-
- 
- 
+Technologies include Java, Selenium, TestNg,Maven, Jenkins.
